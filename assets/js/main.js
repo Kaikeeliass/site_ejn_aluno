@@ -1,4 +1,4 @@
-/* AprendeSmart — scripts do site institucional (desenvolvido por SMK Cogit) */
+/* AprendeSmart — scripts do site institucional (desenvolvido por CMK Cogit) */
 (function () {
   "use strict";
   document.documentElement.classList.remove("no-js");

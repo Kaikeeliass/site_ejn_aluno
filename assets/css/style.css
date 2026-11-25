@@ -1,6 +1,6 @@
 /* =========================================================
    AprendeSmart — Site institucional
-   Desenvolvido por SMK Cogit
+   Desenvolvido por CMK Cogit
    Identidade: azul #3053A0 · amarelo #FDAA23 · cinza-papel
    Fontes: Ojuju (títulos) · Darker Grotesque (texto)
    ========================================================= */
@@ -586,3 +586,15 @@ a:hover { color: var(--azul-escuro); }
   .adesivo--2 { bottom: -18px; left: auto; right: 6%; }
   .hero__visual { padding-bottom: 1.5rem; }
 }
+
+/* Centralização óptica do texto nos botões:
+   a Darker Grotesque tem minúsculas baixas e sobra espaço acima do texto.
+   Sobe o texto alguns pixels redistribuindo o padding vertical. */
+.btn { padding: calc(.95rem - .14em) 1.5rem calc(.95rem + .14em); }
+.btn svg { margin-top: .14em; }
+.menu a { padding-top: calc(.45rem - .12em); padding-bottom: calc(.45rem + .12em); }
+@media (max-width: 880px) { .menu a { padding-top: calc(.8rem - .12em); padding-bottom: calc(.8rem + .12em); } }
+.menu .btn { padding-top: calc(.95rem - .14em); padding-bottom: calc(.95rem + .14em); }
+.creditos a { padding: calc(.35rem - .1em) .8rem calc(.35rem + .1em); }
+.creditos svg { margin-top: .1em; }
+.selo-plano { padding: calc(.3rem - .08em) .7rem calc(.3rem + .08em); }

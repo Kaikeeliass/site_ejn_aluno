@@ -2,7 +2,7 @@
 
 Site institucional da **AprendeSmart**, uma empresa criada por alunos do **Instituto Escola Jovens de Negócios**. A AprendeSmart é uma plataforma de acompanhamento semanal que ajuda estudantes do ensino médio a organizar e manter uma rotina de estudos usando os materiais da própria escola.
 
-Desenvolvido por **SMK Cogit**.
+Desenvolvido por **CMK Cogit**.
 
 > Este repositório contém **somente o site institucional**. A plataforma (área do aluno, painel da família etc.) ainda não foi desenvolvida e não faz parte deste escopo.
 
@@ -62,10 +62,10 @@ Google Search Console **ainda não configurado**. Quando o projeto seguir, envie
 
 ## Antes de publicar: itens provisórios
 
-1. **Domínio**: as URLs absolutas (canonical, OG, sitemap, robots, JSON-LD) usam `https://aprendesmart.smkcogit.com.br`. Para trocar todas de uma vez:
+1. **Domínio**: as URLs absolutas (canonical, OG, sitemap, robots, JSON-LD) usam `https://aprendesmart.cmkcogit.com.br`. Para trocar todas de uma vez:
    ```bash
-   grep -rl "aprendesmart.smkcogit.com.br" . | xargs sed -i 's#aprendesmart.smkcogit.com.br#NOVO-DOMINIO#g'
+   grep -rl "aprendesmart.cmkcogit.com.br" . | xargs sed -i 's#aprendesmart.cmkcogit.com.br#NOVO-DOMINIO#g'
    ```
-2. **Link da SMK Cogit no rodapé**: aponta para `https://smkcogit.com.br` em todas as páginas. Confirme o endereço correto e substitua.
+2. **Link da CMK Cogit no rodapé**: aponta para `https://cmkcogit.com.br` em todas as páginas.
 3. **Formulário de contato**: sem endpoint por enquanto. Para receber as mensagens, preencha `data-endpoint` no `<form id="form-contato">` em `contato.html` com a URL de um serviço como Formspree ou Getform (recebe POST em JSON).
 4. **Planos e recursos**: aparecem como "previstos", porque a plataforma está em desenvolvimento.
